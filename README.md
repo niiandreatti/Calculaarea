@@ -10,14 +10,17 @@ Interface Areaclaculada
 Define o método abstrato getarea() para calcular a área de uma forma geométrica.
 java
 Copiar código
+
 public interface Areaclaculada {
     public abstract double getarea();
 }
+
 Classe FormaGeometrica
 
 Classe abstrata que contém a propriedade cor e métodos acessores.
 java
 Copiar código
+
 public abstract class FormaGeometrica {
     private String cor;
 
@@ -29,6 +32,7 @@ public abstract class FormaGeometrica {
         this.cor = cor;
     }
 }
+
 Classe Figura2D
 
 Extende FormaGeometrica e adiciona a propriedade curvado.
