@@ -2,6 +2,8 @@ Pacote prova
 
 Este pacote contém classes para representar formas geométricas em duas dimensões, como Círculo e Quadrado. As classes implementam a interface Areaclaculada, que define um método para calcular a área da forma.
 
+![Visualização do Cubos](classes.png)
+
 Estrutura do Pacote
 Interface Areaclaculada
 
