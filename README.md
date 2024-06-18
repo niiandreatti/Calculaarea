@@ -45,6 +45,7 @@ public abstract class Figura2D extends FormaGeometrica {
         this.curvado = curvado;
     }
 }
+
 Classe Circulo
 
 Representa um círculo, estende Figura2D e implementa Areaclaculada.
@@ -73,6 +74,7 @@ public class Circulo extends Figura2D implements Areaclaculada {
         return (raio * raio) * 3.14;
     }
 }
+
 Classe Quadrado
 
 Representa um quadrado, estende Figura2D e implementa Areaclaculada.
@@ -101,6 +103,7 @@ public class Quadrado extends Figura2D implements Areaclaculada {
         return (lado * lado);
     }
 }
+
 Classe Main
 
 Classe principal que demonstra o uso das classes acima.
